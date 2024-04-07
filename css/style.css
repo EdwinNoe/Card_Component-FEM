@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Lora:wght@600&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:hsl(30, 38%, 92%);
+    margin: 0px;
+}
+.section{
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    background: white;
+    border-radius: 10px;
+}
+
+.section__img{
+    height: 400px;
+    width: auto;
+}
+
+.section__div{
+    padding: 25px;
+    width: 225px;
+}
+
+.section__h1{
+    margin-top: 0px;
+    color: hsl(228, 12%, 48%);
+    font-family:Montserrat;
+    font-weight: 500;
+    font-size:small;
+}
+.section__h2{
+    font-family: "Fraunces", serif;
+    font-weight:700;
+}
+.section__p1{
+    color: hsl(228, 12%, 48%);
+    font-family:Montserrat;
+    font-weight: 500;
+    font-size:14px;
+}
+.section__div2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.section__p2{
+    font-family: "Fraunces", serif;
+    font-weight:700;
+    font-size:larger;
+    color: rgb(68, 135, 110);
+}
+.section__p3{
+    display: block;
+    font-family: "Fraunces", serif;
+    margin: 30px;
+    font-weight:500;
+    font-size:small;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+.section__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(68, 135, 110);
+    width: 220px;
+    height: 40px;
+    color: aliceblue;
+    cursor:pointer;
+
+}
+
+.section__button:hover {
+    background-color: rgb(33, 67, 54);
+}
+
+@media screen and (max-width:375px) {
+    
+    .section{
+        margin: 30px;
+        width: 300px;
+        height: 600px;
+        flex-direction: column;
+    }
+    .section__img{
+        content: url(../assets/images/image-product-mobile.jpg);
+    }
+}
