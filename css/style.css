@@ -82,7 +82,7 @@
     background-color: rgb(33, 67, 54);
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:800px) {
     
     .section{
         margin: 30px;
